@@ -8,18 +8,13 @@ A simple, interactive To-Do List web application designed to help you manage tas
 - **Mark as Completed**: Toggle the completion status of a task.
 - **Edit Tasks**: Update task descriptions.
 - **Delete Tasks**: Remove tasks from the list.
-- **Responsive Design**: Works seamlessly on different devices.
-- **Persistent Storage**: Tasks are saved in `localStorage` for retrieval after page reload (optional).
+- **Persistent Storage**: Tasks are saved in `localStorage` for retrieval after page reload.
 
 ## Tech Stack
 
 - **HTML**: Structure of the app.
 - **CSS**: Styling, including glassmorphism effects and animations.
 - **JavaScript**: Interactivity and logic.
-
-## Screenshots
-
-![Screenshot of the To-Do App](img/screenshot.png)
 
 ## Getting Started
 
@@ -31,46 +26,48 @@ Ensure you have a modern web browser installed.
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/todo-app.git
-Navigate to the project directory:
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app
+   ```
+3. Open the `index.html` file in a browser:
+   ```bash
+   open index.html
+   ```
 
-bash
-Copy
-Edit
-cd todo-app
-Open the index.html file in a browser:
+## File Structure
 
-bash
-Copy
-Edit
-open index.html
-File Structure
-plaintext
-Copy
-Edit
+```plaintext
 .
 ├── index.html       # Main HTML file
 ├── style.css        # Styles for the application
 ├── script.js        # JavaScript logic
 └── img.png          # Background image for the app
-How to Use
-Add a Task: Type a task in the input field and press the "+" button or hit "Enter".
+```
 
-Mark as Completed: Click the check button (✔) next to a task to toggle its completion status.
+## How to Use
 
-Edit a Task: Click the pen button (✎) to edit a task.
+1. **Add a Task**: Type a task in the input field and press the "+" button or hit "Enter".
+2. **Mark as Completed**: Click the check button (✔) next to a task to toggle its completion status.
+3. **Edit a Task**: Click the pen button (✎) to edit a task.
+4. **Delete a Task**: Click the trash button (🗑) to remove a task.
 
-Delete a Task: Click the trash button (🗑) to remove a task.
+## Future Enhancements
 
-Future Enhancements
-Add categories or tags for tasks.
+- Add categories or tags for tasks.
+- Implement a dark mode toggle.
+- Allow setting due dates and reminders.
 
-Implement a dark mode toggle.
+## License
 
-Allow setting due dates and reminders.
+This project is licensed under the [MIT License](LICENSE).
 
-License
-This project is licensed under the MIT License.
+## Acknowledgments
 
-Acknowledgments
-Icons provided by Font Awesome.
-Design inspiration from modern UI principles.
+- Icons provided by [Font Awesome](https://fontawesome.com/).
+- Design inspiration from modern UI principles.
+
+---
+
+Enjoy using the To-Do App! Feel free to contribute or share feedback. 😊

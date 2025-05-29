@@ -25,7 +25,7 @@ Ensure you have a modern web browser installed.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/AmulyaSindhu28/todo-app.git
    ```
 2. Navigate to the project directory:
    ```bash
